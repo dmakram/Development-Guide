@@ -55,40 +55,10 @@ If the Code Gets too much then split the code in to more scss files and import t
 
 /* Fonts */
 
-@font-face {
-  font-family: 'Riviera';
-  src: url("fonts/Riviera.otf");
-}
-@font-face {
-  font-family: 'LEMONMILK-Medium';
-  src: url("fonts/LEMONMILK-Medium.otf");
-}
-
-@font-face {
-  font-family: 'LEMONMILK-Bold';
-  src: url("fonts/LEMONMILK-Bold.otf");
-}
-
-@font-face {
-  font-family: 'Comfortaa-Regular';
-  src: url("fonts/Comfortaa-Regular.ttf");
-}
-@font-face {
-  font-family: 'Comfortaa-Light';
-  src: url("fonts/Comfortaa-Light.ttf");
-}
-@font-face {
-  font-family: 'Comfortaa';
-  src: url("fonts/Comfortaa-VariableFont_wght.ttf");
-}
-
-
 /* @font-face {
   font-family:"#" ;
   src: url("../css/fonts/#");
 } */
-
-
 
  html {
    scroll-behavior: smooth;
@@ -133,10 +103,10 @@ If the Code Gets too much then split the code in to more scss files and import t
  @layer components {
 
    /* Basic Components */
-   .flow-content > * + * {
+   .content-flow > * + * {
      margin-top: 1.5em;
    }
-   .layout {
+   .lay {
      max-width: 68.75rem;  /* // 1100px */
      width: 90%;
      margin-left: auto;
@@ -236,7 +206,7 @@ module.exports = {
         },
       },
       fontFamily: {
-        brand: ['Riviera', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'Noto Sans', 'sans-serif', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'],
+        brand: ['Poppins', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'Noto Sans', 'sans-serif', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'],
         nav: ['Comfortaa-Light', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'Noto Sans', 'sans-serif', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'],
         heading: ['LEMONMILK-Medium', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'Noto Sans', 'sans-serif', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'],
         body: ['Comfortaa', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'Noto Sans', 'sans-serif', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'],
