@@ -8,12 +8,12 @@ tailwindcss + scss = Perfection Structure and custom options The Orientation if 
 body{
     header{
         div{
-            
+
         }
     	nav {
             ul{
             	.nav-item{
-                
+
             	}
             }
     	}
@@ -21,26 +21,26 @@ body{
     // Using main here to direct the robots to focus on the content with in the main.
     main {
         section{
-            
+
         }
         .hero{
             //This hero text must be bigger than most
             h1{
-                
-            } 
+
+            }
         }
         //aritcle section is what like a main content for the page that can later be printed. Robots will make sure to read this
-        aritcle{ 
-            
+        aritcle{
+
         }
         .cta{
-            
+
         }
         .subject-section {
-            
+
         }
     }
-    
+
 }
 ```
 
@@ -184,20 +184,13 @@ If the Code Gets too much then split the code in to more scss files and import t
 
 ```
 
-Tailwind Configuration file 
+Tailwind Configuration file
 
 this configuration file will contain all the important media, color, dimensions, fonts ,backgrounds, and Images
 
 ```js
 module.exports = {
-  // purge: {
-  //   enabled: rue,
-  //   content: ['./**/*.html'],
-  // },
-  // purge: [
-  //   './**/*.html',
-  //   './**/*.js',
-  // ],
+  content: ['./**/*.html'],
   darkMode: 'media', // or 'class'
   theme: {
     extend: {
