@@ -7,3 +7,5 @@ This is a personal Project to share and help with some of my fellow beginner dev
 To Simplify we take the basic foundational concepts, arrange them in best practice and simplest form. Dissecting the languages to form almost like Lego pieces. These Lego pieces make the conceptual foundation of the idea that the programmer wants to achieve. 
 
 Each Project has to have a Mood Board where the crucial media and Documentation from the client is planned out. Images for inspiration. And Brainstormed Ideas.
+
+## [Getting Started](https://github.com/dmakram/Development-Guide/blob/main/Getting-Started.md)
