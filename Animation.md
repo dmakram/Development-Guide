@@ -74,7 +74,6 @@ svg onclick = (e) =>{  /// event onclick
     document.documentElement.style.cssText = `
     --dark-color: ${rand()};
     --light-color: ${rand()};
-    
     `
 }
 
