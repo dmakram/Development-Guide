@@ -18,12 +18,14 @@ If I started a project I wanted anyone with the basic knowledge to be able to go
 
 Development is usually split in to two different parts, Front-End and Back-End.
 The Front End is simply what the user sees in the final product, what the User interacts with first hand.
-The Back End is more of what happens behind the scenes,like a store clerk that you go back to an organized store room to collect more items from stock or rearrange new arrival stock.
+The Back End is more of what happens behind the scenes,like a store clerk that you go back to an organized store room to collect more items from stock or rearrange new arrival stock. 
+
+In this Development Guide we are going to focus on a way that I have picked up through the years. I have worked to build a way that is easier to learn, and helps with the workflow when working on bigger projects that you will most likely be collaborating with others.
 
 ### Front-End
 
+When you open a website in your browser, the most common languages the browser is interpreting is HTML, CSS, and Javascript, these three languages are essential to web-development. They are what make Web-development what it is today. Javascript is used more for interactivity, so you will find that some websites use little to no Javascript. There are other languages like SASS, LESS, Typescript, that have a more dedicated development pattern, in other words they translate or compile to be CSS and Javascript.
 
-
-
+The Front-End Guide will cover **HTML**, **CSS**, **SASS**(scss) and **Javascript**.
 
 ### Back-End
