@@ -1,1 +1,16 @@
 theme: jekyll-agency
+url    : "https://dmakram.github.io/Development-Guide/" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "https://github.com/dmakram/Development-Guide/blob/main/Getting-Started.md" # the subpath of your site, e.g. /blog
+
+title      : dmakram Development-Guide
+email      : daoud.makram@gmail.com
+description: "A collective of all the usable Documentation and little tools that can be used in web-development. Best Practices all in one place."
+author     : Daoud Makram
+ logo:     dmakram
+   path: https://raw.githubusercontent.com/dmakram/Development-Guide/main/dmakram.png
+   height: 60 #height in px, defaults to 52px
+
+locale: "en-US" # See available languages in _data/sitetext.yml
+
+analytics:
+  google: G-KCE4K9RVYH #Google Analytics tracking code here
