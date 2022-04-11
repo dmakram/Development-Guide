@@ -22,10 +22,10 @@ The Back End is more of what happens behind the scenes,like a store clerk that y
 
 In this Development Guide we are going to focus on a way that I have picked up through the years. I have worked to build a way that is easier to learn, and helps with the workflow when working on bigger projects that you will most likely be collaborating with others.
 
-### Front-End
+### [Front-End](https://github.com/dmakram/Development-Guide/tree/main/front-end)
 
 When you open a website in your browser, the most common languages the browser is interpreting is HTML, CSS, and Javascript, these three languages are essential to web-development. They are what make Web-development what it is today. Javascript is used more for interactivity, so you will find that some websites use little to no Javascript. There are other languages like SASS, LESS, Typescript, that have a more dedicated development pattern, in other words they translate or compile to be CSS and Javascript.
 
-The Front-End Guide will cover **HTML**, **CSS**, **SASS**(scss) and **Javascript**.
+The Front-End Guide will cover [**HTML**](https://github.com/dmakram/Development-Guide/blob/main/front-end/HTML.md), [**CSS**, **SASS**(scss)](https://github.com/dmakram/Development-Guide/blob/main/front-end/CSS-SASS.md) and [**Javascript**](https://github.com/dmakram/Development-Guide/blob/main/front-end/JavaScript.md).
 
-### Back-End
+### [Back-End](https://github.com/dmakram/Development-Guide/tree/main/back-end)
