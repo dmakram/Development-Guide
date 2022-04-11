@@ -1,37 +1,14 @@
-## Welcome to GitHub Pages
+# Development-Guide
 
-You can use the [editor on GitHub](https://github.com/dmakram/Development-Guide/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+A collective of all the usable Documentation and little tools that can be used in web-development. Best Practices all in one place.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+This is a personal Project to share and help with some of my fellow beginner developer friends, better grasp and work using these things collected over years of learning the in's and out's of Web Development. I made it Public so that the community can help when there are things that can be changed or added.
 
-### Markdown
+To Simplify we take the basic foundational concepts, arrange them in best practice and simplest form. Dissecting the languages to form almost like Lego pieces. These Lego pieces make the conceptual foundation of the idea that the programmer achieves composes through writing code. Creatively composing the code, like writing and essay, poetry, and sometimes music. It takes a good grasp of the language and how its syntax work in modules or components that can then then be reused to decrease the amount of code written to achieve its objectives.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Each Project has to have a Mood Board where the crucial media and Documentation from the client is planned out. Images for inspiration. And Brainstormed Ideas.
 
-```markdown
-Syntax highlighted code block
+## [Getting Started](https://github.com/dmakram/Development-Guide/blob/main/Getting-Started.md)
 
-# Header 1
-## Header 2
-### Header 3
+*Note: This **Development Guide** is being Built progressively, it is not yet complete.*
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/dmakram/Development-Guide/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
