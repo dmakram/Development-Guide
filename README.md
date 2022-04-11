@@ -12,3 +12,4 @@ Each Project has to have a Mood Board where the crucial media and Documentation 
 
 *Note: This **Development Guide** is being Built progressively, it is not yet complete.*
 
+![](https://raw.githubusercontent.com/dmakram/Development-Guide/main/dmakram.png)
