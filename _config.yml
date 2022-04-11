@@ -1,6 +1,6 @@
 theme: jekyll-agency
 url    : "https://dmakram.github.io/Development-Guide/" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "https://github.com/dmakram/Development-Guide/blob/main/Getting-Started.md" # the subpath of your site, e.g. /blog
+baseurl: "https://raviriley.github.io/agency-jekyll-theme-starter/" # the subpath of your site, e.g. /blog
 
 title      : dmakram Development-Guide
 email      : daoud.makram@gmail.com
