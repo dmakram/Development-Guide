@@ -9,3 +9,6 @@ To Simplify we take the basic foundational concepts, arrange them in best practi
 Each Project has to have a Mood Board where the crucial media and Documentation from the client is planned out. Images for inspiration. And Brainstormed Ideas.
 
 ## [Getting Started](https://github.com/dmakram/Development-Guide/blob/main/Getting-Started.md)
+
+*Note: This **Development Guide** is being Built progressively, it is not yet complete.*
+
