@@ -8,8 +8,11 @@ To Simplify we take the basic foundational concepts, arrange them in best practi
 
 Each Project has to have a Mood Board where the crucial media and Documentation from the client is planned out. Images for inspiration. And Brainstormed Ideas.
 
+There are more practical places to learn the basics of web development. The difference between what this development guide and [freeCodeCamp](https://www.freecodecamp.org/), [codeacademy](https://www.codecademy.com/), and [General Assembly Dash](https://dash.generalassemb.ly/) is that I am hoping to give a more focused approach to development. There are so many different Resources out there, this is more of a personal one based on my personal experience.
+
 ## [Getting Started](https://github.com/dmakram/Development-Guide/blob/main/Getting-Started.md)
 
 *Note: This **Development Guide** is being Built progressively, it is not yet complete.*
 
 ![](https://raw.githubusercontent.com/dmakram/Development-Guide/main/dmakram.png)
+
