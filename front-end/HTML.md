@@ -16,23 +16,23 @@ Each of the most common tags have an opening and closing tag, this is if the tag
 
 Here is and example of a **h1** tag:
 
-`<h1>Heading 1</h1>`
+<h1>Heading 1</h1>
 
 `<p>` a p tag or a paragraph tag generally contains basic text descriptions
 
 There are tags that make specific changes to text to describe more of what the text is..
 
-`<strong></strong>` Strong tags make the text more bold and important.
+`<strong></strong>`<strong> Strong tags make the text more bold and important.</strong>
 
-`<em></em>` Emphasis tags makes the text Italic.
+`<em></em>` <em>Emphasis tags makes the text Italic.</em> 
 
-`<span>` text that or element of text that generally fit its own unique perpose
+`<span></span>`  <span>text that or element of text that generally fit its own unique purpose</span>
 
 *Some tags don't have a closing tag, these are some of the examples.*
 
-`<a href="">` anchor tags, used as a link or a navigation tag, used to navigate or initiate actions.
+`<a href="#">` anchor tags, used as a link or a navigation tag, used to navigate or initiate actions.
 
-`<img src="">` image tags, used to bring in an image. the source tag -> src="path/to/image.jpg"  is used to embed an image in to the document.
+`<img src="#">` image tags, used to bring in an image. the source tag -> src="path/to/image.jpg"  is used to embed an image in to the document.
 
 `<br>` the line break tag, you can already see that it started the text on a new line.
 
