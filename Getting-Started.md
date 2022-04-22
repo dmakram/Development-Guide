@@ -24,6 +24,8 @@ Figure out what you want from what you don't want. Make sure it the difference i
 
 For forming a vision I regularly use [Typora](https://typora.io/), it give me all that I need in terms of Markdown. Using [Markdown](https://www.markdownguide.org/) helps the whole team send and receive smaller documents that can be quick to read, contain linked Images and contain Code or include other items that have to do with hierarchy.
 
+*The ease to do those things with today's modern open-source Markdown applications like [Typora](https://typora.io/), [Atom](https://atom.io/), and [Notion](https://www.notion.so/).*
+
 #### 2. Planning Structure
 
 Figure out all the Pieces and the Structures that will be at play. The Front-end the aspect the end user is going to interact with. And the Structures and inner workings, what happens in the background. What won't be seen but will be creating what is interacted with, The Back-end. 
