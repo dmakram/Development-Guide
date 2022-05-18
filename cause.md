@@ -13,12 +13,5 @@ Employers and Work community here is a harsh place to be, it isn't fair at all. 
 
 #### [The Pineal Developers Project](http://pinealdevelopers.com/)
 
-*I founded*[ **Pineal Developers**](http://pinealdevelopers.com/) *in part to find people who have a passion and took Branding, Graphic Design, Illustration, Programming/Web Development and expose them to real-world projects and get paid as a freelancer.*
-
-The Pineal Developers Project was supposed to start Nov 2020. The project was in its infancy, but it failed to get up and running due to the harsh economic environment and the outbreak of COVID-19.
-
 We are a Team of 7 people who are working each in different parts of the industry.
 
-I was planning to self-fund the project until it carried itself. Looking for partners and people who are willing to work as freelancers under the project and fund a large percentage of the revenue to cover the running cost. Sadly my dream to revive the Creative/Web-development industry slowed down to a halt.
-
-**I am not giving up on the project**, rather I am working to find Partners and Investors, to push the project forward to support the Youth and build the Web Infrastructure here in Sudan and hopefully the world. I hope that through these personal projects I am able to get things back up and running again.
