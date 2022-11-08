@@ -42,7 +42,7 @@ Development is usually split in to two different parts, Front-End and Back-End.
 The Front End is simply what the user sees in the final product, what the User interacts with first hand.
 The Back End is more of what happens behind the scenes,like a store clerk that you go back to an organized store room to collect more items from stock or rearrange new arrival stock. 
 
-In this Development Guide we are going to focus on a way that I have picked up through the years. I have worked to build a way that is easier to learn, and helps with the work flow when working on bigger projects that you will most likely be collaborating with others. Using [Git](https://git-scm.com/), [Atom - Teletype](https://teletype.atom.io/), [VS Code - Live Share](https://code.visualstudio.com/learn/collaboration/live-share), [Gravit Designer](http://designer.io/) and much more.
+In this Development Guide we are going to focus on a way that I have picked up through the years. I have worked to build a way that is easier to learn, and helps with the work flow when working on bigger projects that you will most likely be collaborating with others. Using [Git](https://git-scm.com/), [Atom - Teletype](https://teletype.atom.io/), [VS Code - Live Share](https://code.visualstudio.com/learn/collaboration/live-share), [Lunacy](https://icons8.com/lunacy) and much more.
 
 #### [Front-End](https://github.com/dmakram/Development-Guide/tree/main/front-end)
 
