@@ -22,9 +22,11 @@ If I started a project I wanted anyone with the basic knowledge to be able to go
 
 Figure out what you want from what you don't want. Make sure it the difference is as clear as the difference is Day from Night. Brain Storming and Creative Ideation process. Documenting this process is very crucial to making the final product phenomenal. 
 
-For forming a vision I regularly use [Typora](https://typora.io/), it give me all that I need in terms of Markdown. Using [Markdown](https://www.markdownguide.org/) helps the whole team send and receive smaller documents that can be quick to read, contain linked Images and contain Code or include other items that have to do with hierarchy.
+For forming a vision I regularly use [Obsidian](https://obsidian.md/), it give me all that I need in terms of Markdown. Obsidian is like a second brain, there are ways to build clusters of information and connect them to different parts and different tags or keywords. When you get used to the tools it has to provide and the [Markdown](https://www.markdownguide.org/) language(which is used globally in multiple diciplines), allows you to take notes in a way we haven't been able to do in the past. It is important to build your own knowledge base, it becomes like your own second brand, keeping references and information in an organized manner as you work.
 
-*The ease to do those things with today's modern open-source Markdown applications like [Typora](https://typora.io/), [Atom](https://atom.io/), and [Notion](https://www.notion.so/).*
+Using [Markdown](https://www.markdownguide.org/getting-started/) helps the whole team send and receive smaller documents that can be quick to read, contain linked Images and contain Code or include other items that have to do with hierarchy.
+
+*The ease to do those things with today's modern Markdown applications like [Obsidian](https://obsidian.md/), [Typora](https://typora.io/), [Notion](https://www.notion.so/) and other Text/Code Editors(VS Code).*
 
 #### 2. Planning Structure
 
@@ -42,7 +44,7 @@ Development is usually split in to two different parts, Front-End and Back-End.
 The Front End is simply what the user sees in the final product, what the User interacts with first hand.
 The Back End is more of what happens behind the scenes,like a store clerk that you go back to an organized store room to collect more items from stock or rearrange new arrival stock. 
 
-In this Development Guide we are going to focus on a way that I have picked up through the years. I have worked to build a way that is easier to learn, and helps with the work flow when working on bigger projects that you will most likely be collaborating with others. Using [Git](https://git-scm.com/), [Atom - Teletype](https://teletype.atom.io/), [VS Code - Live Share](https://code.visualstudio.com/learn/collaboration/live-share), [Lunacy](https://icons8.com/lunacy) and much more.
+In this Development Guide we are going to focus on a way that I have picked up through the years. I have worked to build a way that is easier to learn, and helps with the work flow when working on bigger projects that you will most likely be collaborating with others. Using [Git](https://git-scm.com/), [VS Code - Live Share](https://code.visualstudio.com/learn/collaboration/live-share)(I personally use Vim as my Code Editor, customize configuration to make things quick and smooth with my own shortcuts and others I've learned from long time developers, like [thePrimeagen](https://www.youtube.com/c/theprimeagein)), [Lunacy](https://icons8.com/lunacy) and much more.
 
 #### [Front-End](https://github.com/dmakram/Development-Guide/tree/main/front-end)
 
