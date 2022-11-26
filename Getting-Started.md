@@ -22,14 +22,14 @@ If I started a project I wanted anyone with the basic knowledge to be able to go
 
 Figure out what you want from what you don't want. Make sure it the difference is as clear as the difference is Day from Night. Brain Storming and Creative Ideation process. Documenting this process is very crucial to making the final product phenomenal.
 
-![[obsidianPreview.png]]
+![[./img/obsidianPreview.png]]
  
  For forming a vision I regularly use [Obsidian](https://obsidian.md/), it give me all that I need in terms of Markdown. Obsidian is like a second brain, there are ways to build clusters of information and connect them to different parts and different tags or keywords. When you get used to the tools it has to provide and the [Markdown](https://www.markdownguide.org/) language(which is used globally in multiple diciplines), allows you to take notes in a way we haven't been able to do in the past. It is important to build your own knowledge base, it becomes like your own second brand, keeping references and information in an organized manner as you work.
  
-![[neovimMarkdown.png]]
+![[./img/neovimMarkdown.png]]
 Using [Markdown](https://www.markdownguide.org/getting-started/) helps the whole team send and receive smaller documents that can be quick to read, contain linked Images and contain Code or include other items that have to do with hierarchy.
 
-![[obsidian.png]]
+![[./img/obsidian.png]]
 *The ease to do those things with today's modern Markdown applications like [Obsidian](https://obsidian.md/), [Typora](https://typora.io/), [Notion](https://www.notion.so/) and other Text/Code Editors(Vim, Neovim, VS Code).*
 
 
