@@ -44,7 +44,7 @@ Development is usually split in to two different parts, Front-End and Back-End.
 The Front End is simply what the user sees in the final product, what the User interacts with first hand.
 The Back End is more of what happens behind the scenes,like a store clerk that you go back to an organized store room to collect more items from stock or rearrange new arrival stock. 
 
-In this Development Guide we are going to focus on a way that I have picked up through the years. I have worked to build a way that is easier to learn, and helps with the work flow when working on bigger projects that you will most likely be collaborating with others. Using [Git](https://git-scm.com/), [VS Code - Live Share](https://code.visualstudio.com/learn/collaboration/live-share)(I personally use Vim as my Code Editor, customize configuration to make things quick and smooth with my own shortcuts and others I've learned from long time developers, like [thePrimeagen](https://www.youtube.com/c/theprimeagein)), [Lunacy](https://icons8.com/lunacy) and much more.
+In this Development Guide we are going to focus on a way that I have picked up through the years. I have worked to build a way that is easier to learn, and helps with the work flow when working on bigger projects that you will most likely be collaborating with others. Using [Git](https://git-scm.com/), [VS Code - Live Share](https://code.visualstudio.com/learn/collaboration/live-share)(I personally use Vim as my Code Editor, customize configuration to make things quick and smooth with my own shortcuts and others I've learned from long time developers, like [thePrimeagen](https://www.youtube.com/c/theprimeagein), [Lunacy](https://icons8.com/lunacy) and much more.
 
 #### [Front-End](https://github.com/dmakram/Development-Guide/tree/main/front-end)
 
@@ -69,7 +69,5 @@ Testing with the team seeing different perspectives and making sure that everyth
 #### 7. Assessment
 
 Observing the projects Success, it is like a final test to see how the project runs without our support. Over seeing the way things go after the project takes different use cases.
-
-
 
 #### 
