@@ -41,7 +41,7 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 ```
 
 - I have provided a configuration file for you named 'init.vim'.
-- Go to youe HOME folder in Ubuntu hit Ctrl+h to unhide your .config folder.
+- Go to your HOME folder in Ubuntu hit Ctrl+h to unhide your .config folder.
 - make a folder called nvim inside .config and copy-paste 'init.vim' into 'nvim'
 - Now you are all ready to start your Vim/Neovim, open your terminal and type 'nvim' or 'vim'.
 - You will be faced by a few errors don't worry, that is because you need to install the plugins in the configuration file. To do that hit ENTER to continue a few times then Vim/Neovim will open up.Type ':PlugInstall' exactly the same way you see it here, and hit ENTER again.
