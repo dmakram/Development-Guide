@@ -75,6 +75,21 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 - k = up
 - l = right
 
+#### Spliting the Screen in to Panels
+
+*Check the Configuration, if you would like to change the Leader Button*
+*<leader> = Spacebar*
+- Type :sp = Horizontal Split
+- <leader> vs = Vertical Split
+
+*To close a panel Type ':q' | if there is only one screen open you will close the Vim/Neovim Session 
+
+#### Moving Between Panels
+- Ctrl+h = Moving to the panel to the left
+- Ctrl+j = Moving to the panel to the bottom
+- Ctrl+k = Moving to the panel to the top
+- Ctrl+l = Moving to the panel to the right
+
 ### Vim Commands
 
 - :q = Quit
@@ -84,3 +99,18 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 - :h = help
 - :h + anything = will allow you search help for different things
 - : + TAB = will allow you to see different commands you can
+
+### NerdTree
+
+- Ctrl+t = Will open a side-panel with a file-tree.
+- m = To see more NerdTree Options
+
+### Git - Fugitive
+
+- Type :gs = git status
+    - s = select item to be staged
+    - u = select item to be unstaged
+- Type :gc = commit
+    - Type :wq = to make the commit
+    - Type :q = to cancel commit
+- Type :gsh = git push
