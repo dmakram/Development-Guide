@@ -18,3 +18,6 @@ Here are some of the tools that I use, I choose open-source applications so that
 
 #### Mind Map Editor
 - [Minder](https://github.com/phase1geo/Minder)(Linux Only) [Alternatives](https://alternativeto.net/software/minder/)
+
+#### Other
+- [Gitea](https://gitea.io/)
