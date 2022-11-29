@@ -92,7 +92,7 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 
 ### Vim Commands
 
-- :q = Quit
+- :q = Quit or Close Panel
 - :w = Save 
 - :wq = Save and Quit
 - :q! = Quit without Saving
@@ -107,12 +107,12 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 
 ### Git - Fugitive
 
-- <space>gs = git status
+- <leader>gs = git status
     - s = select item to be staged
     - u = select item to be unstaged
 
-- <space>gc = git commit
+- <leader>c = git commit
     - Type :wq = to make the commit
     - Type :q! = to cancel commit
 
-- <space>gsh = git push
+- <leader>gsh = git push
