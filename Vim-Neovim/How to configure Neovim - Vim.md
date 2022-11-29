@@ -107,10 +107,12 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 
 ### Git - Fugitive
 
-- Type :gs = git status
+- <space>gs = git status
     - s = select item to be staged
     - u = select item to be unstaged
-- Type :gc = commit
+
+- <space>gc = git commit
     - Type :wq = to make the commit
-    - Type :q = to cancel commit
-- Type :gsh = git push
+    - Type :q! = to cancel commit
+
+- <space>gsh = git push
