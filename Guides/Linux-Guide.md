@@ -14,12 +14,12 @@ by Daoud Magdi Makram Saeed
 - which should be around 500MBs
 - It depends on the laptop and how the Linux OS sets this up you don't have to worry about it too much there are tools for it.
 
-##### Root -  /
+##### Root - EXT4 /
 **This is the Partition that will have your system.**
  - I like to keep it separate from the Home Folder in case anything happens to your system your files are safe
  - I generally make it 50GB+ Minimum I usually keep it around 150GB sometimes because I sometimes keep virtual machines in the partition and they take space.
 
-##### Home - /home
+##### Home - EXT4 /home
 **A Partition where the User Files are.**
  - The '/home' partition is the most important. You have your files, configurations, and other scripts and control commands saved on it... 
  - There are applications that allow you to backup the Home and specific folders you choose to backup. 
