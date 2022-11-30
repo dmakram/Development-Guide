@@ -33,7 +33,6 @@ by Daoud Magdi Makram Saeed
 #####  A Mixer Partition(s)
  - This Partition is handy when you want to copy files from Linux to Windows or other Operating systems. sometimes USBs and hard drives have a hard time being FAT32 and receiving a single Large file(larger than 8GB). So I generally keep one or two Partitions FAT32 or NTFS depending on the Office I am dealing with, if it is a MAC or Windows based Office or both.
 
-  
 # Enviornments, Extensions, Applications,  and Configuration
 
 ## Enviornments
@@ -79,19 +78,33 @@ sudo apt install gnome-tweaks gnome-shell-extensions gnome-shell-extension-manag
 sudo apt install {application-name}
 ```
 #### The First Few Essential Applications to learn.
+- [VIM](https://github.com/dmakram/Development-Guide/tree/main/Vim-Neovim) - Vi Improved is a tool that dates back to 1988 but has been refined through time to achieve the same Text/Code Editing functionality for almost any operating system but is more popular for Linux.
+- [Obsidian](https://obsidian.md/) - a very handy notetaking tool.
+- [OBS Studio](https://obsproject.com/) - Screen Recorder
+- [balenaEtcher](https://www.balena.io/etcher/) - Live USB Maker
+- [WINE](https://www.winehq.org/) - "Wine Is Not an Emulator" Linux Windows Compatibility Layer.
+- [git](https://git-scm.com/) - Global Information Tracker 
+- [VLC](https://www.videolan.org/vlc/) - a free and open source cross-platform multimedia player and framework that plays most multimedia files, and various streaming protocols.
+- [GIMP](https://www.gimp.org/) -  a cross-platform image editor available for GNU/Linux, macOS, Windows and more operating systems.
+- [Inkscape](https://inkscape.org/) - Inkscape is professional quality vector graphics software which runs on Linux, Mac OS X and Windows desktop computers.
+- [youtube-dl](https://youtube-dl.org/) - a youtube terminal downloader. 
+- Gdebi - a simple deb package installer. If you are using a debian-based system.
+- GSConnect or KDE Connect - a Linux transferring tool for multiplatform use.
+- Synaptic Package Manager - A powerful Package Manager
+- Curl - Terminal/system Downloader
+- Wget - Web Get a direct Terminal Downloader
 
- - [VIM](https://github.com/dmakram/Development-Guide/tree/main/Vim-Neovim) - Vi Improved is a tool that dates back to 1988 but has been refined through time to achieve the same Text/Code Editing functionality for almost any operating system but is more popular for Linux. 
- - [Obsidian](https://obsidian.md/) - a very handy notetaking tool.
- - [OBS Studio](https://obsproject.com/) - Screen Recorder
- - [balenaEtcher](https://www.balena.io/etcher/) - Live USB Maker
- - [WINE](https://www.winehq.org/) - "Wine Is Not an Emulator" Linux Windows Compatibility Layer.
- - [git](https://git-scm.com/) - Global Information Tracker 
- - [VLC](https://www.videolan.org/vlc/) - a free and open source cross-platform multimedia player and framework that plays most multimedia files, and various streaming protocols.
- - [GIMP](https://www.gimp.org/) -  a cross-platform image editor available for GNU/Linux, macOS, Windows and more operating systems.
- - [Inkscape](https://inkscape.org/) - Inkscape is professional quality vector graphics software which runs on Linux, Mac OS X and Windows desktop computers.
- - [youtube-dl](https://youtube-dl.org/) - a youtube terminal downloader. 
- - Gdebi - if you are using a debian-based system.
- - GSConnect or KDE Connect - a Linux transferring tool for multiplatform use.
- - Synaptic Package Manager - A powerful Package Manager
- - Curl - Terminal/system Downloader
- - Wget - Web Get a direct Terminal Downloader
+Download Your Linux/Unix Packages here. [Pkgs.org](https://pkgs.org/) 
+
+
+#### [AppImages](https://appimage.org/)
+**There is a newer way of installing applications, that is inspired by the Mac OS X System dmg format. Appimages are a beautifulway of keeping or managing your applications**
+Here is a way to keep your Applications in one place just like Mac OS X System.
+You will have to install an [AppimageLauncher](https://github.com/TheAssassin/AppImageLauncher):
+```
+sudo add-apt-repository ppa:appimagelauncher-team/stable
+sudo apt-get update
+sudo apt-get install appimagelauncher
+```
+
+Download your Appimages from here. [Appimage.github.io](https://appimage.github.io/)
