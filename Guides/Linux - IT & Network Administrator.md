@@ -1,0 +1,100 @@
+# Linux & Administrators Guide
+
+by Daoud Magdi Makram Saeed
+
+## Linux Distributions
+
+- Ubuntu - I believe Ubuntu to be the most popular and most stable distribution so far due to its popularity and large User Base
+- Manjaro - Manjaro is Similar to Ubuntu in that they keep their packages stable before sending out Updates.
+- Elementry - Elementry is
+
+### Generally Installation Partitioning
+
+##### EFI - boot or sometimes called/MBR/Windows Boot Manager
+- which should be around 500MBs
+- It depends on the laptop and how the Linux OS sets this up you don't have to worry about it too much there are tools for it.
+
+##### Root -  /
+**This is the Partition that will have your system.**
+ - I like to keep it separate from the Home Folder in case anything happens to your system your files are safe
+ - I generally make it 50GB+ Minimum I usually keep it around 150GB sometimes because I sometimes keep virtual machines in the partition and they take space.
+
+##### Home - /home
+**A Partition where the User Files are.**
+ - The '/home' partition is the most important. You have your files, configurations, and other scripts and control commands saved on it... 
+ - There are applications that allow you to backup the Home and specific folders you choose to backup. 
+ - I make the ' /home ' very Big because sometimes there are important information, applications, virtual machines, and other things that I don't want to lose.
+
+##### SWAP - /swap
+**A Partition that will be used when the RAM is full so the computer doesn’t freeze up.**
+ - Swap partition allows you to keep your system stable. there is a general rule of thumb I use to decide how big it should be. I make it half the RAM size because so far the RAM has been around 4GB 8GB I always keep it half the RAM size.
+ - When it gets to 32 and bigger, the Disk isn't going to handle so much processing over the long term like the RAM so I worry I will lose that disk space in the future to decay.
+
+#####  A Mixer Partition(s)
+ - This Partition is handy when you want to copy files from Linux to Windows or other Operating systems. sometimes USBs and hard drives have a hard time being FAT32 and receiving a single Large file(larger than 8GB). So I generally keep one or two Partitions FAT32 or NTFS depending on the Office I am dealing with, if it is a MAC or Windows based Office or both.
+
+  
+# Enviornments, Extensions, Applications,  and Configuration
+
+## Enviornments
+**Environments are the System Interface that you use Daily or for fallback.** 
+
+### Gnome
+I always choose Gnome because of its large User Base. The User Interface is similar to Mac and Windows Depending on how you configure it. If you feel Gnome isn't for you, I Recommend KDE which is also a very Popular Environment but I found it unstable at times. I feel it is inconsistent visually.
+
+### Xfce
+I usually keep Xfce as a fallback if something fails and I don't have access to my Gnome environment, I have some sort of fallback. Xfce is quick but it could be more User friendly and make it easier to work with in the long run or when you are new to Linux.
+
+### The Terminal
+Get Used to the Terminal, have a notebook or a set of notes that you update through time. I used Linux for years. I keep a list on my google search of topics and other applications or issues that I have faced so that it is quick and Easy to solve problems when they happen.
+
+## Extensions
+**I will cover Gnome Extensions only because they are far more Powerful and Popular.**
+
+#### Install the Following application on your gnome environment.
+
+```
+sudo apt install gnome-tweaks gnome-shell-extensions gnome-shell-extension-manager -y
+```
+
+##### Click [GNOME Extensions](https://extensions.gnome.org/) to install : 
+- Desktop Icons NG (DING) - Desktop Icons Extension
+- Dash to Dock for COSMIC - Dock that reminds you of Mac OS
+- Dash to Panel - A Windows-like Start Panel experience.
+- Hide Top Bar - Allows you to get a full screen when you are focused on your Applications.
+- Night Theme Switcher
+- User Themes
+- Unite
+- GPaste - a Clipboard Extension for your Computer
+- Compiz alike magic lamp effect - Mac Effect
+- Caffeine - keeping the screen on if you are watching or monitoring something
+- Audio Output Switcher
+- Net Speed Simplified
+- Simple System Monitor or Resource Monitor - to watch or monitor system information.
+ 
+## Applicaitons
+
+**Most of these Applications are already in the Linux installer List, so you just do:**
+```
+sudo apt install {application-name}
+```
+#### The First Few Essential Applications to learn.
+
+ - [VIM](https://github.com/dmakram/Development-Guide/tree/main/Vim-Neovim) - Vi Improved is a tool that dates back to 1988 but has been refined through time to achieve the same Text/Code Editing functionality for almost any operating system but is more popular for Linux. because a lot of the time computers might not have a mouse or has issues with their system. A live USB with a Linux Image can be very handy along with some VIM skills, for maneuvering around the system quickly and efficiently. Making changes in configurations and other system text base parts.
+ - WireShark is the lead or it can be said to be the most popular Network SwissKnife, it was made in 1998 but is still used for its powerful tools, statistics, network troubleshooting, analysis, software, and communications protocol development.
+ - Nmap - Network Mapping tool, allows you to search your network and make a map of Devices.
+ - [Kalitorify](https://github.com/brainfucksec/kalitorify) - a Tor Handy tool that allows you to be completely safe by making a virtual network and connecting your computer through it to the tor network. Making you anonymous and secure.
+ - [Obsidian](https://obsidian.md/) - a very handy notetaking tool.
+ - VirtualBox - one of the most Stable Virtual machine Systems
+ - OBS Studio - Screen Recorder
+ - balenaEtcher - Live USB Maker
+ - WINE - "Wine Is Not an Emulator" Linux Windows Compatibility Layer.
+ - Gdebi - if you are using a debian-based system.
+ - GSConnect or KDE Connect - a Linux transferring tool for multiplatform use.
+ - Synaptic Package Manager - A powerful Package Manager
+ - git - Global Information Tracker 
+ - Curl - Terminal/system Downloader
+ - Wget - Web Get a direct Terminal Downloader
+ - VLC 
+ - GIMP
+ - Inkscape
