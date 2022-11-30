@@ -4,9 +4,9 @@ by Daoud Magdi Makram Saeed
 
 ## Linux Distributions
 
-- Ubuntu - I believe Ubuntu to be the most popular and most stable distribution so far due to its popularity and large User Base
+- Ubuntu - I believe Ubuntu to be the most popular and most stable distribution so far due to its popularity and large User Base.
 - Manjaro - Manjaro is Similar to Ubuntu in that they keep their packages stable before sending out Updates.
-- Elementry - Elementry is
+- Elementry - Elementry is a Mac focused experience built on Ubuntu.
 
 ### Generally Installation Partitioning
 
