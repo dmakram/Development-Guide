@@ -4,9 +4,9 @@ by Daoud Magdi Makram Saeed
 
 ## Linux Distributions
 
-- Ubuntu - I believe Ubuntu to be the most popular and most stable distribution so far due to its popularity and large User Base.
-- Manjaro - Manjaro is Similar to Ubuntu in that they keep their packages stable before sending out Updates.
-- Elementry - Elementry is a Mac focused experience built on Ubuntu.
+- [Ubuntu](https://ubuntu.com/desktop) - I believe Ubuntu to be the most popular and most stable distribution so far due to its popularity and large User Base.
+- [Manjaro](https://manjaro.org/) - Manjaro is Similar to Ubuntu in that they keep their packages stable before sending out Updates.
+- [Elementry OS](https://elementary.io/) - Elementry is a Mac focused experience built on Ubuntu.
 
 ### Generally Installation Partitioning
 
@@ -108,3 +108,10 @@ sudo apt-get install appimagelauncher
 ```
 
 Download your Appimages from here. [Appimage.github.io](https://appimage.github.io/)
+
+### Bonus 
+**For you Mac Users**
+[Make your Gnome Look Like Mac](https://youtu.be/EMrNBMCaQFA)
+**For you Windows Users**
+[Make your Gnome Look Like Windows](https://youtu.be/Cy4Zo9-Tn-c)
+
