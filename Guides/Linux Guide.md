@@ -1,4 +1,4 @@
-# Linux & Administrators Guide
+# Simple Linux Guide
 
 by Daoud Magdi Makram Saeed
 
@@ -80,21 +80,18 @@ sudo apt install {application-name}
 ```
 #### The First Few Essential Applications to learn.
 
- - [VIM](https://github.com/dmakram/Development-Guide/tree/main/Vim-Neovim) - Vi Improved is a tool that dates back to 1988 but has been refined through time to achieve the same Text/Code Editing functionality for almost any operating system but is more popular for Linux. because a lot of the time computers might not have a mouse or has issues with their system. A live USB with a Linux Image can be very handy along with some VIM skills, for maneuvering around the system quickly and efficiently. Making changes in configurations and other system text base parts.
- - WireShark is the lead or it can be said to be the most popular Network SwissKnife, it was made in 1998 but is still used for its powerful tools, statistics, network troubleshooting, analysis, software, and communications protocol development.
- - Nmap - Network Mapping tool, allows you to search your network and make a map of Devices.
- - [Kalitorify](https://github.com/brainfucksec/kalitorify) - a Tor Handy tool that allows you to be completely safe by making a virtual network and connecting your computer through it to the tor network. Making you anonymous and secure.
+ - [VIM](https://github.com/dmakram/Development-Guide/tree/main/Vim-Neovim) - Vi Improved is a tool that dates back to 1988 but has been refined through time to achieve the same Text/Code Editing functionality for almost any operating system but is more popular for Linux. 
  - [Obsidian](https://obsidian.md/) - a very handy notetaking tool.
- - VirtualBox - one of the most Stable Virtual machine Systems
- - OBS Studio - Screen Recorder
- - balenaEtcher - Live USB Maker
- - WINE - "Wine Is Not an Emulator" Linux Windows Compatibility Layer.
+ - [OBS Studio](https://obsproject.com/) - Screen Recorder
+ - [balenaEtcher](https://www.balena.io/etcher/) - Live USB Maker
+ - [WINE](https://www.winehq.org/) - "Wine Is Not an Emulator" Linux Windows Compatibility Layer.
+ - [git](https://git-scm.com/) - Global Information Tracker 
+ - [VLC](https://www.videolan.org/vlc/) - a free and open source cross-platform multimedia player and framework that plays most multimedia files, and various streaming protocols.
+ - [GIMP](https://www.gimp.org/) -  a cross-platform image editor available for GNU/Linux, macOS, Windows and more operating systems.
+ - [Inkscape](https://inkscape.org/) - Inkscape is professional quality vector graphics software which runs on Linux, Mac OS X and Windows desktop computers.
+ - [youtube-dl](https://youtube-dl.org/) - a youtube terminal downloader. 
  - Gdebi - if you are using a debian-based system.
  - GSConnect or KDE Connect - a Linux transferring tool for multiplatform use.
  - Synaptic Package Manager - A powerful Package Manager
- - git - Global Information Tracker 
  - Curl - Terminal/system Downloader
  - Wget - Web Get a direct Terminal Downloader
- - VLC 
- - GIMP
- - Inkscape
