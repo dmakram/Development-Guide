@@ -35,7 +35,7 @@ by Daoud Magdi Makram Saeed
 
 # Enviornments, Extensions, Applications,  and Configuration
 
-## Enviornments
+## Environments
 **Environments are the System Interface that you use Daily or for fallback.** 
 
 ### Gnome
