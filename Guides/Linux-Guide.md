@@ -71,7 +71,7 @@ sudo apt install gnome-tweaks gnome-shell-extensions gnome-shell-extension-manag
 - Net Speed Simplified
 - Simple System Monitor or Resource Monitor - to watch or monitor system information.
  
-## Applicaitons
+## Applicatons
 
 **Most of these Applications are already in the Linux installer List, so you just do:**
 ```
