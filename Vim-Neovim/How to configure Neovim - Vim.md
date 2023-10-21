@@ -111,7 +111,7 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
     - s = select item to be staged
     - u = select item to be unstaged
 
-- <leader>c = git commit
+- <leader>gc = git commit
     - Type :wq = to make the commit
     - Type :q! = to cancel commit
 
