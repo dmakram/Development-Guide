@@ -4,7 +4,7 @@ set noswapfile " disable creating swap file
 set undodir=~/.config/.nvim/undodir
 set undofile
 set scrolloff=4
-set showmatch               " show matching                 " middle-click paste with
+set showmatch               " show matchind                 " middle-click paste with
 set nohlsearch              " highlight search
 set incsearch               " incremental search
 set tabstop=4               " number of columns occupied by a tab
@@ -27,7 +27,7 @@ set ttyfast                 " Speed up scrolling in Vim
 set splitbelow splitright
 set wrap
 "set spell                 " enable spell check (may need to download language package)
-"set backupdir=~/.cache/nvim Directory to store backup files.
+set backupdir=~/.cache/nvim "Directory to store backup files.
 
 syntax on                   " syntax highlighting
 
@@ -57,18 +57,20 @@ call plug#begin('~/.config/.nvim/plugged')
 " Auto-close braces and scopes
   Plug 'jiangmiao/auto-pairs'
 " Track the engine.
-"  Plug 'SirVer/ultisnips'
-"
+  Plug 'SirVer/ultisnips'
+Plug 'Exafunction/codeium.vim', { 'branch': 'main' }
 "  MiniStarter
   Plug 'echasnovski/mini.nvim'
   "Artificial Intelligence TabNine
-" Plug 'zxqfl/tabnine-vim'
+ Plug 'zxqfl/tabnine-vim'
  Plug 'dapplebeforedawn/vim-typing-practice'
  Plug 'https://github.com/tc50cal/vim-terminal' " Vim Terminal
  Plug 'https://github.com/preservim/tagbar' " Tagbar for code navigation
  Plug 'https://github.com/terryma/vim-multiple-cursors' " CTRL + N for multiple cursors
  Plug 'https://github.com/ap/vim-css-color' " CSS Color Preview
- Plug 'https://github.com/rafi/awesome-vim-colorschemes' " Retro Scheme
+ Plug 'morhetz/gruvbox' 
+ Plug 'wakatime/vim-wakatime' 
+" Plug 'https://github.com/rafi/awesome-vim-colorschemes' " Retro Scheme
 "  Plugin Section
 call plug#end()
 
@@ -84,14 +86,34 @@ set background=dark " Specifying a Darkbackground
 
 
 " Setting default Python Origin
-let g:python_hostprog = '/usr/bin/python'
-let g:python3_hostprog = '/bin/python3'
+let g:python_hostprog = '/usr/bin/python2'
+let g:python3_hostprog = '/usr/bin/python3'
 
 
 let mapleader=' ' " Setting Leader button
 map <C-t> :NERDTreeToggle<CR> "Nerd
 let NERDTreeShowHidden=1 " Show hidden files in NerdTree buffer.
 
+" open NERDTree automatically
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * NERDTree
+
+let g:NERDTreeGitStatusWithFlags = 1
+let g:WebDevIconsUnicodeDecorateFolderNodes = 1
+let g:NERDTreeGitStatusNodeColorization = 1
+"let g:NERDTreeColorMapCustom = {
+    "\ "Staged"    : "#0ee375",  
+    "\ "Modified"  : "#d9bf91",  
+    "\ "Renamed"   : "#51C9FC",  
+    "\ "Untracked" : "#FCE77C",  
+    "\ "Unmerged"  : "#FC51E6",  
+    "\ "Dirty"     : "#FFBD61",  
+    "\ "Clean"     : "#87939A",   
+    "\ "Ignored"   : "#808080"   
+    "\ }                         
+
+
+let g:NERDTreeIgnore = ['^node_modules$']
 set fileformats=unix,dos,mac
 " session management
 let g:session_directory = "~/.config/nvim/session"
@@ -131,8 +153,6 @@ set t_Co=256
 let g:NERDTreeDirArrowExpandable = '►'
 let g:NERDTreeDirArrowCollapsible = '▼'
 let NERDTreeShowLineNumbers=1
-let NERDTreeShowHidden=1
-let NERDTreeMinimalUI = 1
 let g:NERDTreeWinSize=38
 
 " Command of Completion ----------------------------------------------------------------------------
@@ -271,6 +291,8 @@ command! -nargs=? Fold :call     CocAction('fold', <f-args>)
 
 " Add `:OR` command for organize imports of the current buffer.
 command! -nargs=0 OR   :call     CocActionAsync('runCommand', 'editor.action.organizeImport')
+" Language server stuff
+command! -nargs=0 Prettier :call CocAction('runCommand', 'prettier.formatFile')
 
 " Add (Neo)Vim's native statusline support.
 " NOTE: Please see `:h coc-status` for integrations with external plugins that
@@ -303,7 +325,7 @@ let g:coc_global_extensions = ['coc-snippets', 'coc-pairs', 'coc-eslint', 'coc-p
 
 let g:airline_theme='gruvbox'
 let g:airline#extensions#tabline#enabled = 1
-let g:airline_powerline_fonts = 0
+let g:airline_powerline_fonts = 1
 let g:hybrid_custom_term_colors = 1
 let g:hybrid_reduced_contrast = 1
 let g:airline#extensions#ale#enabled = 1
@@ -316,12 +338,12 @@ endif
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#left_sep = ' '
 let g:airline#extensions#tabline#left_alt_sep = '|'
-"let g:airline#extensions#tabline#formatter = 'default'
+let g:airline#extensions#tabline#formatter = 'default'
 
 
 " unicode symbols
  let g:airline_left_sep = '▶'
- let g:airline_right_sep = '◀'
+ let g:airline_right_sep = '◀ '
 " let g:airline_symbols.linenr = '␊'
 " let g:airline_symbols.linenr = '␤'
  let g:airline_symbols.linenr = '¶'
