@@ -38,3 +38,63 @@ import { name } from './name.js';
 ```
 
 ## JavaScript Examples
+
+Variables can be used to store data in JavaScript.
+There are many types of variables in JavaScript.
+
+```JavaScript
+// This is an example of a variable, it can be used to store data in variables. The simplest for I guess is ```var``` but is used rarely.
+let name = "John";
+let age = 30;
+let isMarried = false;
+let year = new Date().getFullYear();
+// Constants things can't be changed.
+const pi = 3.14;
+const country = "Canada";
+
+cosnt city = "Vancouver";
+// This is an example of a variable, it can be used to store data in objects. 
+let person = {
+    name: "John",
+    age: 30,
+    isMarried: false,
+    year: new Date().getFullYear(),
+    pi: 3.14,
+    country: "Canada",
+    city: "Vancouver"
+};
+
+// This is an example of an array of objects.
+let people = [
+   id: 1,{
+        name: "John",
+        age: 30,
+        isMarried: false,
+        year: new Date().getFullYear(),
+        pi: 3.14,
+        country: "Canada",
+        city: "Vancouver"
+    },
+    id: 2, {
+        name: "Jane",
+        age: 32,
+        isMarried: true,
+        year: new Date().getFullYear(),
+        pi: 3.14,
+        country: "Canada",
+        city: "Vancouver"
+    },
+    id: 3, {
+        name: "Jim",
+        age: 28,
+        isMarried: false,
+        year: new Date().getFullYear(),
+        pi: 3.14,
+        country: "Canada",
+        city: "Vancouver"
+    }
+]
+
+
+
+```
