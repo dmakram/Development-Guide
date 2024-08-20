@@ -1,5 +1,5 @@
 # Cause / Reason
-There are many people in there teens to late 30s sometimes above that age, that are graduates of Computer Science or IT, that are looking for ways to find jobs. There is an economic struggle, and a lot of people are lost, looking for ways to make a basic income, and have a lot of trouble following the traditional Study/Career paths.
+There are many people in there teens to late 20s to 30s sometimes above that age, that are graduates of Computer Science or IT, that are looking for ways to find jobs. There is an economic struggle, and a lot of people are lost, looking for ways to make a basic income, and have a lot of trouble following the traditional Study/Career paths.
 
 ## Mission
 
