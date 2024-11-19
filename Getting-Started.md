@@ -26,7 +26,7 @@ For forming a vision I regularly use [Obsidian](https://obsidian.md/), it give m
 
 Using [Markdown](https://www.markdownguide.org/getting-started/) helps the whole team send and receive smaller documents that can be quick to read, contain linked Images and contain Code or include other items that have to do with hierarchy.
 
-*The ease to do those things with today's modern Markdown applications like [Obsidian](https://obsidian.md/),[Logseq](https://logseq.com/),[Typora](https://typora.io/), [Notion](https://www.notion.so/) and other Text/Code Editors(Vim, Neovim, VS Code).*
+*The ease to do those things with today's modern Markdown applications like [Obsidian](https://obsidian.md/), [Logseq](https://logseq.com/), [Typora](https://typora.io/), [Notion](https://www.notion.so/) and other Text/Code Editors(Vim, Neovim, VS Code).*
 
 
 #### 2. Planning Structure
