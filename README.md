@@ -2,7 +2,7 @@
 
 A collective of all the usable Documentation and little tools that can be used in web-development. Best Practices all in one place.
 
-This is a personal Project to share and help with some of my fellow beginner developer friends, better grasp and work using these things collected over years of learning the in's and out's of Web Development. I made it Public so that the community can help when there are things that can be changed or added.
+This is a personal Project to share and help with some of my fellow beginner creators, designers, and developer friends, better grasp and work using these things collected over years of learning the in's and out's of Web Development. I made it Public so that the community can help when there are things that can be changed or added.
 
 To learn more about the cause and reason behind this project, click [here](https://github.com/dmakram/Development-Guide/blob/main/cause.md).
 
